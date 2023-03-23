@@ -215,4 +215,26 @@ const num = 1; //-5;
 
 // console.log(sum);
 
+//block scope
+// if (true) {
+//   const myName = " My name is divya";
+// }
+// console.log(myName);
 
+// if (true) {
+//   let myName = " My name is divya";
+// }
+// console.log(myName);
+
+// above code throws the error ReferenceError: myName is not defined
+
+//below code works fine
+// if (true) {
+//   const myName = " My name is divya";
+//   console.log(myName);
+// }
+
+// if (true) {
+//   var myName = " My name is divya";
+// }
+// console.log(myName);

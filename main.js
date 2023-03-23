@@ -125,8 +125,94 @@ let y = 2;
 // console.log(var1 == var2);
 // console.log(var1 === var2);
 
-const num = -5;
+const num = 1; //-5;
 
-if (num > 0) {
-  console.log("Number is positive");
-}
+//if else
+// if (num > 0) {
+//   console.log("Number is positive");
+// }else{
+// console.log("Number is not positive");
+// }
+
+//else if
+
+// if (num > 1) {
+//   console.log("Number is Positive");
+// } else if (num < 0) {
+//   console.log("Number is negative");
+// } else {
+//   console.log("Number is Equal");
+// }
+
+// const color = "blue";
+
+// switch (color) {
+//   case "red":
+//     console.log("color is red");
+//     break;
+//   case "green":
+//     console.log("colour is green");
+//     break;
+//   case "blue":
+//     console.log("colour is blue");
+//     break;
+
+//   default:
+//     console.log("not a valid color");
+// }
+
+//loops
+
+//for loop
+
+// for (let i = 1; i <= 5; i++) {
+//   console.log("For Loop " + i);
+// }
+
+// let i = 1;
+// while (i <= 5) {
+//   console.log("For Loop " + i)
+//   i++
+// }
+
+// let i = 5;
+// do {
+//   console.log("For Loop " + i)
+//   i++;
+// } while (i <= 5);
+
+// for of loop
+// const numArray = [1, 2, 3, 4, 5];
+
+// for (const num of numArray) {
+//   console.log("For Loop " + num);
+// }
+
+//functions
+
+// function great(username) {
+//   console.log("Good Morning " + username);
+// }
+// great("Divya");
+
+// function add(a, b) {
+//   return a + b;
+// }
+
+// const sum = add(3, 4);
+
+// console.log(sum);
+
+// arrow function
+
+// const arrowSum = (a, b) => {
+//   return a + b;
+// };
+
+// const addFive = (number) => a + b;
+
+// const sum = arrowSum(3, 4);
+
+// console.log(sum);
+
+
